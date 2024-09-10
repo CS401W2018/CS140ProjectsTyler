@@ -1,0 +1,1 @@
+This is meant for assignments done outside of class, like homework!
