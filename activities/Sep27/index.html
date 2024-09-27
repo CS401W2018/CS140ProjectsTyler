@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CSS Selectors</title>
+</head>
+<body>
+    <header>
+       <h1>Web Design</h1>
+    </header>
+    <nav>
+        link link link
+    </nav>
+    <main>
+        <h1>CSS Selectors</h1>
+        <h2>List out the different ways to select an item:</h2>
+        <p>
+            <strong>Tag name: </strong> Just the name of the tag such as a main tag. This will apply all the styling to EVERY one of those tags and EVERYTHING within that tag in the case of something like a main tag!
+            <br>
+            <br>
+            <strong>Descendent Rule: </strong> When you use something like "main p" where it selects all paragraph tags within our main tags
+            <br>
+            <br>
+            <strong>ID: </strong> &lt; id="IDName" &gt; you can use ID's to name any specific tag! Works in header tags! Works in paragraph tags! Works in everything! To edit via CSS use "#IDName".
+            <br>
+            <br>
+            <strong>Class: </strong> Works almost the exact same as an ID but you use a "." to edit it in the CSS, Example: ".ClassName{css stuff here}". You can add multiple classes as well to a tag using a space between them. Example: &lt;p class="first second"&gt;, this adds the class of "first" and the class of "second" to that paragraph tag!
+        </p>
+
+        <h2>What is the difference between an ID and a Class:</h2>
+        <p>
+            <strong>ID:</strong> To edit via CSS use "#IDName". YOU CANNOT HAVE SPACES IN ID's. Use a "-" or "_" or a version of camel case. ID Should only be used ONCE. Don't have multiple tags using the same ID! Usually uses a noun as a name. 
+            <br>
+            <br>
+            <strong>Class:</strong>Shares some rules as with ID's, to not use spaces in the naming!!! Can be used as many times as you want! Use this if theres multiple tags that have the same class! So this is reusable but ID's aren't reusable. Usually uses an adjective as a name. 
+        </p>
+
+        <h2>What is the difference between a SPAN tag and a DIV tag:</h2>
+        <p>
+            You can use the &lt;span&gt; tag to help edit certain text! A span tag doesn't do anything by itself but it allows you to attatch an ID or a Class to it, allowing you to style certain parts of text! Use a span tag when you don't have a lot of tags within it! Useful when styling specific parts of text. 
+            <br>
+            <br>
+            For Div tags you want to use these when you have lots of tags within it! Div tags DO cause line breaks!!! Makes a little box almost of the text within it thats its own thing. Heres an example of how to use one: &lt;div class="classname" id="IDName"&gt;
+        </p>
+
+        <h2>What is the difference between a DIV tag and a HEADER, MAIN, FOOTER:</h2>
+        <p>
+            They are all effectively the same. The main difference is that the header main and footer tags allow things like google to not have to look at your class or ID names to be able to figure out whats going on in your webpage! In the past people use to just use only Div tags and add in an id or class name of "Main" or "Header" or "footer" and such. 
+        </p>
+
+        <h2>What are different ways to select a color:</h2>
+        <p>
+            You can use RGB values, can also just use names of the color like "white" or "black" or "red" and such. 
+        </p>
+
+        <p id = "first">
+            Example Paragraph: Lorem ipsum, dolor sit amet consectetur adipisicing elit. A id praesentium, nemo, possimus modi cumque reprehenderit fugit culpa nulla magnam labore corporis iusto quaerat laudantium amet reiciendis? Pariatur, id praesentium.
+        </p>
+        <p class = "second">
+            Example Paragraph 2: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate id earum accusantium, corporis, quam doloremque dolorem aut velit, neque aliquid amet iste reprehenderit ut vero ea illum distinctio ipsum exercitationem.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure expedita aliquid ducimus quisquam a atque, <span class="second">aperiam libero perspiciatis</span> id at dolores quae fuga voluptatem maxime, eligendi dignissimos modi voluptas! Modi?
+        </p>
+        <div class="third">
+            <p>
+                Example paragraph 3!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque ut placeat corporis non velit quis reiciendis sed similique aliquam. Rerum animi magni, possimus veritatis ex tenetur iste voluptatibus fuga doloremque!
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tyler</p>
+    </footer>
+</body>
+</html>

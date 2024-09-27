@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#first{
+    color: aqua;
+}
+
+.second{
+    color:crimson
+}
+/* You can also do it like this if you have things outside of the main tag with the "second" class name as well! The css below says to edit all tags within the main tag that has the "second" class  */
+main .second{
+    color: crimson;
+}
+
+.third{
+    background-color: rgb(242, 250, 136);
+}
