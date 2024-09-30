@@ -2,9 +2,23 @@ body{
     font-family: 'Comic Sans MS', cursive, sans-serif;
     font-size: 20px;
     background-color: #003319;
-    color: #ffffff;
+    color: #87C4A5;
 }
 
 .NotAsImportant{
-    color: #87C4A5;
+    color: #549133;
+}
+
+.emphasizedText{
+    color: #ffffff;
+}
+
+#emphasizedIDText{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#deEmphasizedText{
+    color: #549133;
+    font-family: 'Times New Roman', Times, serif;
 }
