@@ -1,0 +1,30 @@
+nav a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.currentPage {
+    color: white;
+    font-weight: bold;
+}
+
+#HomeList {
+    list-style-image: url("Images/frenchflag16x11.png");
+}
+
+#MainHome {
+    background-image: url("Images/frenchflag.png");
+    background-repeat: no-repeat; 
+    background-position: right center;
+}
+
+footer {
+    clear: both;
+    margin-top: 20px; /* Add some space above the footer */
+    text-align: bottom;
+}
+
+body{
+    background-image: url(Images/backgroundSmaller.jpg);
+    color: white;
+}
