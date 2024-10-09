@@ -1,0 +1,27 @@
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color: antiquewhite;
+}
+
+#borderShow{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 50px;
+    width: 750px;
+    margin: 0 auto;
+}
+
+#beachPic{
+    width: 250px;
+}
+
+#beachPicWrapper{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 50px auto; 
+    width: 250px;
+}
