@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav li{
+    display: inline;
+}
+
+nav a:hover{
+    background-color: white;
+    color: rgb(0, 255, 170);
+}
+
+nav a{
+    display: block;
+    border-radius: 25px;
+    background-color: rgb(0, 255, 170);
+    border-bottom: thin solid white;
+    padding: 10px 20px; 
+    float: left;
+    margin-left: 10px;
+    text-decoration: none;
+    margin-bottom: 50px
+}
