@@ -1,0 +1,68 @@
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#RolexImg{
+    float: left;
+    outline: 2px;
+    outline-style: solid;
+    width: 300px;
+    height: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: url(Rolex_logo.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position-y: 99%;
+    background-position-x: 99%;
+}
+
+#RolexImg img{
+    width: 300px;
+}
+
+.BottomParagraph{
+    font-size: medium;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 2px 2px #bfbfbf;
+}
+
+.Precision{
+    margin-top: 15px;
+    padding-right: 100px;
+}
+
+#wrapper{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 35px;
+    box-shadow: 10px 10px #000000;
+}
+
+body{
+    background-color: darkgray;
+}
+
+nav a:hover{
+    color: rgb(8, 106, 129);
+    background-color: white;
+}
+
+nav a{
+    background-color: rgb(8, 106, 129);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
