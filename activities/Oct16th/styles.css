@@ -1,0 +1,19 @@
+.Container {
+    background-color: cadetblue;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item{
+    background-color: lightblue;
+    border-color: black;
+    border: thin solid;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: smaller;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
