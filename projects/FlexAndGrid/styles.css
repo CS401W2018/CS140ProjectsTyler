@@ -1,0 +1,63 @@
+body{
+    background-color: #121212;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1E1E;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #BB86FC;
+    font-size: large;
+}
+
+.LeftSideBar{
+    color: white;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+.LeftSideBar p{
+    margin-right: 1%;
+    justify-content: space-around;
+}
+
+.ProfileCardContainer{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Card{
+    margin-top: 2%;
+    width: 18%;
+    background-color: #1E1E1E;
+}
+
+.Card img{
+    display: block;
+    width: 100%;
+}
+
+.Links {
+    background-color: #1E1E1E;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Links a{
+    display: block;
+    text-decoration: none;
+    color: #BB86FC;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
