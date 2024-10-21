@@ -16,16 +16,19 @@ nav a{
     font-size: large;
 }
 
+.wrapper{
+    display: flex;
+}
+
 .LeftSideBar{
     color: white;
-    float: left;
     display: flex;
     flex-direction: column;
-    width: 10%;
+    width: 20%;
+    margin-right: 2%;
 }
 
 .LeftSideBar p{
-    margin-right: 1%;
     justify-content: space-around;
 }
 
