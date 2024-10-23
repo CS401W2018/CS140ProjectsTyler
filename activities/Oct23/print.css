@@ -1,0 +1,22 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.beachPicture{
+    width: 200px;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.75);
+}
+
+.beachPicture img{
+    width: 100%;
+}
+
+.CardContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: none;
+}
