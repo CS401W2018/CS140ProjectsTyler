@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.beachPicture{
+    width: 200px;
+    border: thin solid black;
+    box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.75);
+}
+
+.beachPicture img{
+    width: 100%;
+}
+
+.CardContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    background-color: rgb(0, 95, 95);
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+header{
+    background-color: blueviolet;
+    margin-bottom: 0vh;
+}
+
+header h1{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size:5vh;
+}
+
+.NavBarButton{
+    display: none;
+}
+
+@media only screen and (max-width: 800px){
+    body{
+        background-color: grey;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav a{
+        padding-bottom: 1%;
+        border-bottom: thin solid white;
+        padding-left: 5%;
+    }
+
+    .CardContainer{
+        flex-wrap: wrap;
+    }
+
+    .beachPicture{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 60%;
+    }
+
+    .NavBarButton{
+        display: inline;
+    }
+
+    .mainCard{
+        order: -1
+    }
+}
+

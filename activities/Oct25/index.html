@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" media = "screen">
+    <link rel="stylesheet" href="print.css" media = "print">
+    <title>Review</title>
+</head>
+<body>
+    <header>
+       <h1>Web Development</h1>
+       <button class = "NavBarButton">Nav Bar</button>
+    </header>
+    <nav id = "navbar">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    <main>
+        <h1>Cards</h1>
+        <div class = "CardContainer">
+            <div class = "beachPicture">
+                <img src="beach.png" alt="A rocky coastline"> 
+                <h2>Beach</h2>
+                <p>Lorem ipsum dolor sit amet</p>
+             </div>
+             <div class = "beachPicture mainCard">
+                 <img src="beach.png" alt="A rocky coastline"> 
+                 <h2>Center Beach</h2>
+                 <p>Lorem ipsum dolor sit amet</p>
+              </div>
+              <div class = "beachPicture">
+                 <img src="beach.png" alt="A rocky coastline"> 
+                 <h2>Beach</h2>
+                 <p>Lorem ipsum dolor sit amet</p>
+              </div>
+        </div>
+        <div class = "EngagementQuestions">
+            <h3>1)</h3>
+            <p>We need the viewport meta tag because it allows us to "tell" the web browser to stay the same size and to not like resize the webpage, we want a phone or something to use its screen dimensions and to not try to fake like being larger or something. </p>
+            <h3>2)</h3>
+            <p>When you select the same tag twice, and in one of them you say "flex-direction: column;" and the other says "flex-direction: row;" CSS will default to using the last verison of it, so if you have "flex-direction; column" first and "flex-direction: row;" 2nd, itll use the row. 
+            </p>
+            <h3>3)</h3>
+            <p>To change CSS for a web page displayed on a phone you can use "media only screen and (max-width: 800px)" at the bottom of your CSS. Within this we can put new styles for things like body, nav, the exact same way you add styles normally.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tyler</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
