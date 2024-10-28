@@ -55,10 +55,12 @@ img{
     body{
         background-color: grey;
     }
+    
     nav{
         flex-direction: column-reverse;
         justify-content: space-around;
     }
+
     nav a{
         margin-top: 1%;
         margin-bottom: 1%;
@@ -66,10 +68,11 @@ img{
 
     .LeftSideBar{
         width: 100%;
+        order: -1;
     }
 
     .Wrapper{
-        flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
 
     .Article{
