@@ -1,0 +1,78 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+nav a{
+    display: block;
+}
+
+.Wrapper{
+    display: flex;
+}
+
+#HarryPotterLogo{
+    width: 100%
+}
+
+.LeftSideBar{
+    margin-top: 5%;
+    width: 25%;
+    flex-shrink: 0;
+}
+
+main{
+    width: auto;
+}
+
+.Article{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 25%;
+}
+
+.articleContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.articleContainer article{
+    border: solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 5px grey;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px){
+    body{
+        background-color: grey;
+    }
+    nav{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    nav a{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .LeftSideBar{
+        width: 100%;
+    }
+
+    .Wrapper{
+        flex-wrap: wrap;
+    }
+
+    .Article{
+        width: 75%;
+    }
+}
