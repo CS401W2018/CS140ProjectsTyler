@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tabels</title>
+</head>
+<body>
+    <header>
+       <h1>My Class Schedule</h1>
+    </header>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    <main>
+        <br>
+        <table class = "table">
+            <caption>My Class Schedule</caption>
+            <thead>
+                <tr>
+                    <th>Department</th><th>Number</th><th>Time</th><th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CS</td><td>140</td><td>11AM</td> <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS</td><td>140</td><td>11AM</td> <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS</td> <td>140</td> <td>11Am</td> <td>3</td>
+                </tr>
+                <tr>
+                    <td>CS</td> <td>140</td> <td>11AM</td> <td>3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="3" id="totalCredits">Total Credits</th>
+                    <td headers="totalCredits">12</td>
+                </tr>
+            </tfoot>
+        </table>
+        <div class = "Questions">
+            <p>
+                1) The reasons we should use the boarder property within the HTML, and you should do it within the CSS because if you do it within the html it will give you validation errors. And the main thing is if you style it within the html, styling it later via CSS won't be possible as the stuff within the html doc will override the stuff within the css file. 
+            </p>
+            <p>
+                2) The easiest way to color every other row a different color is to use "tr:nth-child(odd)" in css. In the parenthesis you can select specific rows as well, or you can also put even and odd to do every other row starting on whichever line you want. 
+            </p>
+            <p>
+                3) We should use a table whenever you want to present some sort of data to a user. Tables allow us to present data in a really nice way where its really easy to read. It can really be any sort of information though you could make a schedule for a sports team, you could put like a roster, theres a lot of different ways you can use them. You shouldn't use a table to lay stuff out on your website though, thats what grid or flex is for.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tyler</p>
+    </footer>
+</body>
+</html>
+
+
+
+
