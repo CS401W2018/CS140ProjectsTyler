@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Forms</title>
+</head>
+<body>
+    <header>
+       <h1>Web Design</h1>
+    </header>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    <main>
+        <h1>Forms</h1>
+
+        <form action="processing.html", method = "post">
+            First Name: <input type="text", name="first" placeholder="First Name" required = "required">
+            <br>
+            Last Name: <input type="text", name="last">
+            <br>
+            Password: <input type="password" name="pass">
+            <br>
+            <br>
+            <input type="checkbox">Test 1 <br>
+            <input type="checkbox">Test 2 <br>
+            <input type="checkbox">Test 3 <br>
+            <input type="checkbox">Test 4 <br>
+            <input type="checkbox">Test 5 <br>
+            <br>
+            Class:
+            <br>
+            <input type="radio" name = "class", value="Freshman">Freshman <br>
+            <input type="radio" name = "class", value="Sophomore"> Sophomore <br>
+            <input type="radio" name = "class", value="Junior"> Junior <br>
+            <input type="radio" name = "class", value="Senior" required="required"> Senior <br>
+            <br>
+            Coments: <textarea name="comments"></textarea>
+            <br>
+            <br>
+            State: <select name="state" id="">
+                <option value="blank"></option>
+                <option value="HI">Hawaii</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+
+
+        <div class = "questions">
+            <p>
+                1) The form tag has an "action" attribute. What does it do?
+                <br>
+                The action attribute is equivalent to the URl that you are sent to when you submit the form. So for this web page its process.html which doesn't exist which is why it gets mad at your when you try to submit the form.
+            </p>
+            <p>
+                2)The form tag has a "method" attribute. What does it do?
+                <br>
+                The method attribute tells the web page how to send the data within the form. It can use either a GET or a POST request to send the data.
+            </p>
+            <p>
+                3)What is the difference between a "POST" and a "GET"?
+                <br>
+                The difference between a POST and a GET request is that POST requests are used for sending data and GET requests are used for reading data. When you want to submit and make a change on the server, you would use a POST request, one small difference is the information you send is not available in the URl in a POST request but that doesn't make it more secure if your on HTTP, using something like wireshark you would still be able to see the data being passed. This is why you use HTTPS which encrypts the data in motion between the 2 computers. GET requests though are mainly used though for when you want to read data and your not making a change within the server. 
+            </p>
+        </div>
+
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Tyler</p>
+    </footer>
+</body>
+</html>
+
+
+
+
