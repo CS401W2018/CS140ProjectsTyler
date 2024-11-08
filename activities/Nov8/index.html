@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Forms</title>
+</head>
+<body>
+    <header>
+       <h1>Web Design</h1>
+    </header>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    <main>
+        <h1>Forms</h1>
+        <form action="processing.html" method="post">
+            <fieldset>
+                <legend>Sign Up</legend>
+                <div class = "form-row">
+                    <label for="fname">First Name:</label>
+                    <input type="text", name = "first", id="fname" placeholder="Joe">
+                </div>
+                <div class = "form-row">
+                    <label for="lname">Last name:</label>
+                    <input type="text", id="lname" name="last" placeholder="Mama">
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="pass" id="pass">
+                </div>
+                <div class = "check-row">
+                    <div class="spacer"></div>
+                    <label>
+                        <input type="checkbox" name="remember" checked>
+                        Remember me
+                    </label>
+                </div>
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value="blank"></option>
+                        <option value="HI">Hawaii</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Colorado</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="check-row">
+                    <div class="spacer">Class:</div>
+                    <label><input type="radio" name = "class", value="Freshman">Freshman</label>
+                    <label><input type="radio" name = "class", value="Sophomore">Sophomore</label>
+                    <label><input type="radio" name = "class", value="Sophomore">Junior</label>
+                    <label><input type="radio" name = "class", value="Sophomore">Senior</label>
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit">
+                </div>
+            </fieldset>
+        </form>
+        <div class = "questions">
+            <p>
+                1)What are different ways to style your form?
+                <br>
+                By following similar CSS to what we've already learned, and what is on this page you can help your form look more appealing! Your are able to use our standard things such as background color, color and everything that you have for other forms. There are also some special ways of selecting certain types of tags that we learned today, using input:not([type="submit"]) will affect all input tags that don't have a type of submit!
+            </p>
+            <p>
+                2) Why does the professor like to use flex?
+                <br>
+                The reason Bro. Slade likes to use flex is because it allows you to very easily design and make your website mobile friendly.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tyler</p>
+    </footer>
+</body>
+</html>
+
+
+
+
