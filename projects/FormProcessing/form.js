@@ -5,6 +5,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     const first = document.getElementById("fname").value;
     const last = document.getElementById("lname").value;
     const age = document.getElementById("age").value;
+    const TOS = document.getElementById("TOS").checked;
 
     //input validation wooooo
     if (!first || !last) {
@@ -14,6 +15,11 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
 
     if (!(age >= 18)) {
         alert("You must be 18 or older to fill out this form.");
+        return;
+    }
+
+    if(!TOS){
+        alert("You must agree to the terms and conditions")
         return;
     }
 
