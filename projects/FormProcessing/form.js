@@ -16,7 +16,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
     }
 
     //Checks if age is null, if the input is not a number, and if the user is 18 or older, if any of these are true than we go into the if statement
-    if (!age || isNaN(age) || age <= 18) {
+    if (!age || isNaN(age) || age < 18) {
         alert("You must be 18 or older to fill out this form.");
         return;
     }
