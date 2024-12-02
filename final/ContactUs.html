@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>FPV Drones</title>
+</head>
+<body>
+    <header>
+       <h1>FPV Drones</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="types.html">Types</a>
+        <a href="GettingStarted.html">Getting Started</a>
+        <a href="DroneComponentsList.html">Example Drone Build</a>
+        <a href="#">Tips and Tricks</a>
+        <a href="#">FPV Sim's</a>
+        <a href="ContactUs.html" class = "Active">Contact Us</a>
+    </nav>
+    <main>
+        <div class = "Wrapper" id="theWrapper">
+            <div id = "message"></div>
+            <form action="processing.html" method="post" id="theFORM">
+                <fieldset>
+                    <legend>Contact Us!</legend>
+                    <div class = "form-row">
+                        <label for="fname">First Name:</label>
+                        <input type="text" name = "first" id="fname" placeholder="John">
+                    </div>
+                    <div class = "form-row">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name = "last" id="lname" placeholder="Doe">
+                    </div>
+                    <div class = "form-row">
+                        <label for="email">Email:</label>
+                        <input type="email" name = "email" id="email" placeholder="JohnDoe@example.com">
+                    </div>
+                    <div class = "form-row">
+                        <label for="phoneNumber">Phone Number:</label>
+                        <input type="tel" name = "phone" id="phoneNumber">
+                    </div>
+                    <div class="form-row">
+                        <label for="location">Region:</label>
+                        <select name="location" id="location">
+                            <option value="">--</option>
+                            <option value="Northeast">Northeast</option>
+                            <option value="Midwest">Midwest</option>
+                            <option value="South">South</option>
+                            <option value="West">West</option>
+                            <option value="International">International</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label for="comments">Leave us a comment!</label>
+                        <textarea name="comments" id="comments" placeholder=""></textarea>
+                    </div>
+                    <div class="form-row">
+                        <div class="spacer"></div>
+                        <input type="submit">
+                    </div>
+                </fieldset>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tyler</p>
+    </footer>
+    <script src="ContactUs.js"></script>
+</body>
+</html>

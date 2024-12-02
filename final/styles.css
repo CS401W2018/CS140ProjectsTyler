@@ -128,6 +128,86 @@ a{
     text-decoration: none;
 }
 
+.GearCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form{
+    color:#BB86FC;
+    text-align: center;
+}
+
+.form-row{
+    margin: 5%;
+}
+
+.GearCard {
+    background-color: rgb(85, 85, 85);
+    color: #E0E0E0;
+    border-radius: 10px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    width: 30%;
+    text-align: center;
+}
+
+form {
+    color: #BB86FC;
+    text-align: center;
+}
+
+form label{
+    margin-right: 2.5%;
+}
+
+.fieldset {
+    background-color: #252525; 
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%; 
+}
+
+.form-row {
+    display: flex;
+    align-items: center; 
+}
+
+.form-row label {
+    width: 150px; 
+    text-align: right;
+}
+
+input:not([type="submit"]){
+    padding: 2.5%;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+textarea {
+    resize: none;
+    width: 75%;
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #BB86FC;
+    color: #121212;
+    padding: 2.5%;
+    border: none;
+    border-radius: 10px;
+}
+
+.spacer {
+    width: 150px;
+    text-align: right;
+}
+
 
 @media only screen and (max-width: 700px){
     nav{
@@ -153,6 +233,17 @@ a{
 
     figure img{
         width: 100%;
+    }
+
+    .GearCardContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .GearCard {
+        margin: 5%;
+        padding: 5%;
+        width: 90%;
     }
 
 }
